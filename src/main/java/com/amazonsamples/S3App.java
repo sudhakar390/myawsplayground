@@ -107,8 +107,8 @@ public class S3App {
 
 	private static AmazonS3 createS3Client() {
 		ClientConfiguration clientConf = new ClientConfiguration();
-		clientConf.setProxyHost("webproxy.twc.state.tx.us");
-		clientConf.setProxyPort(9092);
+		clientConf.setProxyHost("xxxxxxxxxxx");
+		clientConf.setProxyPort(9090);
 		clientConf.setConnectionTimeout(60 * 1000);
 		AWSCredentials credentials;
 		try {
